@@ -75,9 +75,6 @@
 
 //--tablet/mobile section 
 @media only screen and (max-width: 900px) {
-  //header
-
-
   //main-section
   .main-section__image {
     right: -250px;
@@ -151,7 +148,7 @@
   //footer 
   .footer {
     &__body {
-      padding: 15px;
+      padding: 40px;
       flex-direction: column;
       justify-content: start;
       row-gap: 25px;
@@ -165,6 +162,15 @@
 
 // decktop/tablet header-burger menu
 @media only screen and (min-width: 769px) {
+  .nav{
+    &__list {
+    height: 100%;
+    position: relative;
+    }
+    &__link {
+      height: 50%;
+    }
+  }
   .menu {
     &__button {
       display: none;
@@ -192,6 +198,7 @@
       flex-direction: column;  
     }
     &__item {
+      transition: all 0.25s;
       &:not(:last-child) {
         border-bottom: var(--colorLightGray) 1px solid;
       }
@@ -261,7 +268,7 @@
       background-color: var(--colorBeigeLight);
       box-shadow: 1px 0px 6px var(--accentColorLightCrey);
   
-      transition: 0.25s;
+      transition: all 0.25s;
     }
   }
   

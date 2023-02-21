@@ -2,40 +2,21 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:regular,700&display=swap&subset=cyrillic-ext');
 @import url("https://fonts.googleapis.com/css?family=Prata:regular");
 
+@import "../../public/stylesheets/normalize.css";
 @import "./var.scss";
-
-:root {
-  --colorWhite: white;
-  --mainColorBlack: #1B1A17;
-
-  --accentColorGray: #555248;
-  --accentColorDarkGray: #444240;
-  --accentColorLightCrey: #8B8371;
-  --colorLightGray: rgb(241, 236, 225);
-
-  --colorDarkBeige: #D4B098;
-  --colorBeige: #E6C8B4;
-  --colorBeigeLight: rgb(231, 216, 196);
-  --bgColorLightBeige: #FDFDFB;
-  --hoverColorBeige: rgb(240, 230, 217);
-
-  --balckTextColor: rgba(27, 26, 23, 0.82);
-  --whiteTextColor: rgba(255, 255, 255, 0.75);
-}
+@import "./link.scss";
+@import "./media.scss";
 
 body {
   font-family: $primary-font-family;
   font-weight: $primary-font-weight;
-  color: var(----mainColorBlack);
+  color: var(--mainColorBlack);
 }
 
 ._container {
   max-width: $container-width;
   margin: 0 auto;
-  // outline: 1px solid blue;
 }
-
-
 
 //--HEADER------------------------------------//
 
@@ -98,19 +79,13 @@ body {
 }
 
 .nav {
-  height: $header-height;
   position: relative;
+  height: $header-height;
   width: 100%;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  // color: var(--accentColorGray);
-
-  &__list {
-    height: 100%;
-    position: relative;
-  }
 
   &__item {
     height: 100%;
@@ -125,8 +100,6 @@ body {
   }
 
   &__link {
-    height: 50%;
-
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -254,9 +227,6 @@ body {
 
 .content {
   flex: 1 1 auto;
-  // .content__product-section {}
-  // .content__qualities-section {}
-  // .content__news-section {}
 }
 
 .main-section {
