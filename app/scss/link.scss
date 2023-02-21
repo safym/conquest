@@ -1,0 +1,23 @@
+.link {
+  transition: 0.25s;
+  &:link {
+    color: var(--accentColorGray);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  &:visited {
+    color: var(--accentColorGray);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  &:hover {
+    color: var(--colorDarkBeige);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  &:active {
+    color: var(--colorDarkBeige);
+    background-color: transparent;
+    text-decoration: none;
+  }
+}

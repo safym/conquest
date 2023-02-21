@@ -1,0 +1,25 @@
+.link {
+  transition: 0.25s;
+}
+.link:link {
+  color: var(--accentColorGray);
+  background-color: transparent;
+  text-decoration: none;
+}
+.link:visited {
+  color: var(--accentColorGray);
+  background-color: transparent;
+  text-decoration: none;
+}
+.link:hover {
+  color: var(--colorDarkBeige);
+  background-color: transparent;
+  text-decoration: none;
+}
+.link:active {
+  color: var(--colorDarkBeige);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=link.css.map */
