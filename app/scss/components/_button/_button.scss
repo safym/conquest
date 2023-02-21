@@ -1,0 +1,40 @@
+@import "../../var";
+
+.button {
+  min-height: 64px;
+  min-width: 205px;
+  max-width: fit-content;
+
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: $secondary-font-weight;
+  font-size: $tertiary-font-size;
+  line-height: 1.16em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  transition: 0.25s;
+
+  color: var(--colorWhite);
+  
+  &_color {
+    &_gray {
+      background-color: var(--accentColorGray);
+
+      &:hover {
+        background-color: var(--accentColorLightCrey)
+      }
+    }
+
+    &_beige {
+      background-color: var(--colorDarkBeige);
+
+      &:hover {
+        background-color: var(--colorBeige);
+      }
+    }
+  }
+}

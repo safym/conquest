@@ -1,0 +1,8 @@
+@import "../../var";
+
+.description {
+  font-size: $primary-font-size;
+  line-height: 1.5em;
+
+  color: var(--accentColorDarkGray);
+}

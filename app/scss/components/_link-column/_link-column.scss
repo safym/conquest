@@ -1,0 +1,28 @@
+@import "../../var";
+
+.link-column {
+  &__header {
+    margin-bottom: 27px;
+
+    font-size: $secondary-font-size;
+    font-weight: $tertiary-font-weight;
+    line-height: 1.14em;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+
+    color: var(--whiteTextColor);
+  }
+
+  &__link {
+    margin-bottom: 15px;
+
+    font-size: $tertiary-font-size;
+    line-height: 0.9em;
+
+    color: var(--whiteTextColor);
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+}

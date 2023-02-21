@@ -1,0 +1,23 @@
+@import "../../var";
+
+.actions {
+  display: inline-flex;
+  flex-wrap: nowrap;
+
+  .actions__item {
+    height: 16px;
+
+    & svg path {
+      transition: all 0.25s;
+    }
+
+    &:hover svg path {
+      fill: var(--colorDarkBeige);
+      stroke: var(--colorDarkBeige);
+    }
+
+    &:not(:last-child) {
+      margin-right: 23px;
+    }
+  }
+}

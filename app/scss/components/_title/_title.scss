@@ -1,0 +1,9 @@
+@import "../../var";
+
+.title {
+  font-family: $secondary-font-family;
+  font-size: $title-font-size;
+  line-height: 1.34em;
+
+  color: var(--mainColorBlack);
+}

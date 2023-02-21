@@ -1,0 +1,23 @@
+@import "../../var";
+
+.carousel {
+  position: relative;
+
+  &__control-wrapper {
+    position: relative;
+  }
+
+  &__controls {
+    width: 63px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__count {
+    font-family: $tertiary-font-family;
+    font-size: $tertiary-font-size;
+    line-height: 1.33em;
+    color: var(--textColor);
+  }
+}

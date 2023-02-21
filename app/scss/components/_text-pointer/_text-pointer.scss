@@ -1,0 +1,22 @@
+@import "../../var";
+
+.text-pointer {
+  &__text {
+    font-family: $tertiary-font-family;
+    font-size: $primary-font-size;
+    line-height: 1.83em;
+  }
+
+  &__dash {
+    margin: 0 15px;
+  }
+
+  &_direction {
+    &_left {
+      flex-direction: row;
+    }
+    &_right {
+      flex-direction: row-reverse;
+    }
+  }
+}

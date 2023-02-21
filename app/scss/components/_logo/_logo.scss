@@ -1,0 +1,27 @@
+@import "../../var";
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  &__image {
+    width: 26px;
+    height: 26px;
+    max-width: none;
+  }
+
+  &__text {
+    font-family: $secondary-font-family;
+    font-size: $tertiary-font-size;
+    line-height: 1.14em;
+    letter-spacing: 0.14em;
+  }
+
+  &_dark {
+    color: var(--accentColorGray);
+  }
+
+  &_light {
+    color: var(--colorWhite);
+  }
+}

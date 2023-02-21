@@ -1,0 +1,16 @@
+@import "../../var";
+
+.socials-block {
+  display: inline-flex;
+  flex-direction: row;
+
+  & *:not(:last-child) {
+    margin-right: 18px;
+  }
+
+  .socials-block__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,71 @@
+@import "../../var";
+
+.item-catalog {
+  width: 370px;
+  height: 467px;
+  max-width: 370px;
+  max-height: 467px;
+  min-width: 370px;
+
+  padding: 30px;
+
+  flex: 0 0 33.333%;
+  background-color: var(--bgColorLightBeige);
+  transition: 0.25s;
+  cursor: pointer;
+
+  &__title {
+    margin-bottom: 5px;
+    padding-left: 12px;
+
+    font-family: $secondary-font-family;
+    font-weight: $tertiary-font-weight;
+    font-size: $secondary-font-size;
+    line-height: 1.71em;
+    letter-spacing: 0.03em;
+
+    color: var(--textColor);
+  }
+
+  &__price {
+    padding-left: 12px;
+
+    font-family: $tertiary-font-family;
+    font-size: $tertiary-font-size;
+    line-height: 1.33em;
+
+    color: var(--textColor);
+  }
+
+  &__image-border {
+    margin-bottom: 19px;
+    padding: 1px;
+    border-radius: 50%;
+    background: linear-gradient(to left, #E2D0C4 0.3%, rgba(226, 208, 196, 0) 99.67%);
+  }
+
+  &__image-wrapper {
+    border-radius: 50%;
+    background-color: var(--bgColorLightBeige);
+  }
+
+  &__link-wrapper {
+    padding-left: 12px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__link {
+    margin-left: 18px;
+
+    font-family: $secondary-font-family;
+    font-size: $primary-font-size;
+    line-height: 1.5em;
+
+    color: var(--mainColorBlack);
+  }
+
+  &:hover {
+    box-shadow: 1px 1px 50px var(--hoverColorBeige);
+  }
+}

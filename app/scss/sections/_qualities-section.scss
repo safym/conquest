@@ -1,0 +1,43 @@
+@import "../var";
+
+.qualities-section {
+  overflow: hidden;
+  position: relative;
+  background-color: var(--bgColorLightBeige);
+
+  &__container {
+    position: relative;
+    z-index: 2;
+  }
+
+  &__body {
+    display: flex;
+  }
+
+  &__carousel {
+    width: 100%;
+    max-width: 521px;
+  }
+
+  &__info-block {
+    max-width: 376px;
+    min-height: 243px;
+  }
+
+  &__bg-block {
+    position: absolute;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    background-color: #F7F5EF;
+
+    z-index: 1;
+  }
+
+  &__bg-image {
+    position: absolute;
+    top: -213px;
+    right: -654px;
+    z-index: 1;
+  }
+}

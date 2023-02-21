@@ -1,0 +1,19 @@
+@import "../var";
+
+.news-section {
+  &__container {
+    padding: 0 15px;
+    box-sizing: content-box;
+  }
+
+  &__body {
+    position: relative;
+
+    display: flex;
+  }
+
+  &__info-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}

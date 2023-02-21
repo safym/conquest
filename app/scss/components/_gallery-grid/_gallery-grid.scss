@@ -1,0 +1,30 @@
+@import "../../var";
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  grid-template-rows: repeat(2, 1fr);
+  align-items: stretch;
+  grid-gap: 10px;
+
+  grid-template-areas:
+    "photo-first photo-third"
+    "photo-second photo-third";
+
+  &__photo {
+    width: 100%;
+    height: auto;
+
+    &_first {
+      grid-area: photo-first;
+    }
+
+    &_second {
+      grid-area: photo-second;
+    }
+
+    &_third {
+      grid-area: photo-third;
+    }
+  }
+}

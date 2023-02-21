@@ -1,0 +1,17 @@
+@import "../../var";
+
+.dash {
+  display: inline-block;
+  height: 1px;
+  background-color: var(--accentColorLightCrey);
+
+  &_width {
+    &_short {
+      width: 30px;
+    }
+
+    &_long {
+      width: 50px;
+    }
+  }
+}
