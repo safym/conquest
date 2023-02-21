@@ -4,7 +4,10 @@
 
 @import "../css/normalize.css";
 @import "../scss/main";
+
+@import "./root";
 @import "./var";
+
 @import "./media/media";
 
 @import "./sections/header";
