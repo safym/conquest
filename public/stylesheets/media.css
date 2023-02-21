@@ -43,6 +43,8 @@
     margin-bottom: 92px;
   }
   .footer__body {
+    flex-direction: row;
+    justify-content: space-between;
     padding: 72px 87px;
   }
 }

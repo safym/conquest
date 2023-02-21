@@ -67,7 +67,9 @@
 
   //footer 
   .footer {
-    &__body {
+    &__body {      
+      flex-direction: row;
+      justify-content: space-between;
       padding: 72px 87px;
     }
   }
