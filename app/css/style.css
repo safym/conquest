@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap&subset=cyrillic-ext");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:regular,700&display=swap&subset=cyrillic-ext");
 @import url("https://fonts.googleapis.com/css?family=Prata:regular");
-@import "../../public/normalize.css";
+@import "../css/normalize.css";
 :root {
   --colorWhite: white;
   --mainColorBlack: #1B1A17;
