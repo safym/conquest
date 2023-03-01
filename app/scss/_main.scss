@@ -1,5 +1,9 @@
 @import "./var";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: $primary-font-family;
   font-weight: $primary-font-weight;

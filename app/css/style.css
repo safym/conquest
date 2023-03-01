@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:regular,700&display=swap&subset=cyrillic-ext");
 @import url("https://fonts.googleapis.com/css?family=Prata:regular");
 @import "../css/normalize.css";
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto";
   font-weight: 400;
