@@ -6,6 +6,9 @@
 
   &__container {
     padding: 0 15px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
   }
 
   &__body {
@@ -48,12 +51,6 @@
     bottom: 24px;
   }
 
-  &__container {
-    position: relative;
-    overflow: hidden;
-    display: flex;
-  }
-
   &__text {
     max-width: 258px;
 
@@ -67,7 +64,7 @@
   }
 
   &__image {
-    max-width: none;
+      max-width: none;
 
     position: absolute;
     bottom: -21px;

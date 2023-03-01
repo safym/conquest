@@ -172,9 +172,6 @@ body {
   .nav__item {
     transition: all 0.25s;
   }
-  .nav__item:not(:last-child) {
-    border-bottom: var(--colorLightGray) 1px solid;
-  }
   .nav__item:hover {
     background-color: var(--hoverColorBeige);
   }
@@ -226,6 +223,9 @@ body {
 }
 .main-section__container {
   padding: 0 15px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
 }
 .main-section__body {
   margin: 236px 0;
@@ -254,11 +254,6 @@ body {
 .main-section__dash {
   position: absolute;
   bottom: 24px;
-}
-.main-section__container {
-  position: relative;
-  overflow: hidden;
-  display: flex;
 }
 .main-section__text {
   max-width: 258px;
@@ -630,7 +625,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   -moz-column-gap: 30px;
-       column-gap: 30px;
+  column-gap: 30px;
   row-gap: 30px;
 }
 
