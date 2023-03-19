@@ -50,6 +50,3 @@ Live link: [Demo](https://safym.github.io/conquest/)
 * SCSS
 * Flexbox
 * Grid
-
-
-
