@@ -34,10 +34,10 @@ Live link: [Demo](https://safym.github.io/conquest/)
 
 ### 📱 Mobile
 <p align="center">
-    <img height="280px" src="https://user-images.githubusercontent.com/99616798/226182119-43d682bc-efd6-46a0-8f65-e262d2454bd0.png" />
-    <img height="280px" src="https://user-images.githubusercontent.com/99616798/226182123-7af7a534-7a56-4208-8cb7-2a10d7734d69.png" />
-    <img height="280px" src="https://user-images.githubusercontent.com/99616798/226182125-a8c6c5a5-a75c-46ea-863d-bde8d40a359b.png" />
-    <img height="280px" src="https://user-images.githubusercontent.com/99616798/226182127-aa87e64f-0f4c-4f5c-aedc-b01fed40667b.png" />
+    <img height="290px" src="https://user-images.githubusercontent.com/99616798/226182119-43d682bc-efd6-46a0-8f65-e262d2454bd0.png" />
+    <img height="290px" src="https://user-images.githubusercontent.com/99616798/226182123-7af7a534-7a56-4208-8cb7-2a10d7734d69.png" />
+    <img height="290px" src="https://user-images.githubusercontent.com/99616798/226182125-a8c6c5a5-a75c-46ea-863d-bde8d40a359b.png" />
+    <img height="290px" src="https://user-images.githubusercontent.com/99616798/226182127-aa87e64f-0f4c-4f5c-aedc-b01fed40667b.png" />
 </p>
 
 ## 📑 Requirements:
